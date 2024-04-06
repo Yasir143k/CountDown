@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+p{
+    font-size: larger;
+}
+.countdownbox{
+    background-color: rgb(243, 246, 246);
+    height: 400px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 5px 19px 25px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+.lebals{
+    display: flex;
+    text-align: center;
+}
+.lebals div{
+    width: 150px;
+    margin: auto;
+    font-size: xx-large;
+}
+input{
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 15px;
+    font-size: 90px;
+    padding-left: 50px;
+}
